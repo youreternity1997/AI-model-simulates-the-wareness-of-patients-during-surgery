@@ -56,7 +56,6 @@ Because of the hospital data privacy, the project doesn't involve the dataset.
 <p align='center'>
 <img src="github_fig/Performance_plot.png" height="350px" width='650px'> 
 
-
 ### Predicted results on test set
 
 #### linear regression :
