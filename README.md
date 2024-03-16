@@ -42,9 +42,13 @@ Because of the hospital data privacy, the project doesn't involve the dataset.
 <p align='center'>
 <img src="github_fig/BIS.png" height="330px" width='650px'> 
 
-#### 隨機森林的樹結構 :
+#### 決策樹的樹結構 :
 <p align='center'>
 <img src="github_fig/tree_st_graph.png" height="350px" width='1000px'> 
+    
+#### 隨機森林的樹結構 :
+<p align='center'>
+<img src="github_fig/for_reg_small_tree.png" height="350px" width='1000px'> 
     
 ### Metrics result
 |Methods|lin_reg|Poly_degree_lin_reg|SVR|Optimal_forest_reg|forest_reg|Optimal_tree_reg|tree_reg|

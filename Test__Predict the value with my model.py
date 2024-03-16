@@ -6,7 +6,7 @@ import pickle
 
 # 定義一個以 Pandas 讀入資料的函式
 def load_document_data():
-    csv_path = "../NTUH_OR69_Raw_Data_9_test_surgerys.csv"
+    csv_path = "./NTUH_OR69_Raw_Data_9_test_surgerys.csv"
     return pd.read_csv(csv_path)
 anesthesia_test_set_original = load_document_data()
 anesthesia_test_set_original = anesthesia_test_set_original.replace([-1,'-1','--'],[np.nan,np.nan,np.nan])
@@ -36,5 +36,6 @@ if __name__ == '__main__':
     my_model_loaded = joblib.load("./my_model.pkl")
     my_model_loaded_predict = my_model_loaded.predict(anesthesia_test_set_original[-1:])[0]
     print('Final data=', anesthesia_test_set_original[-1:])
+    print('BIS=', anesthesia_test_set_original[-1:]['BIS'])
     print('predicted value=', my_model_loaded_predict)
 
