@@ -26,13 +26,13 @@
     
 
 ### Dependencies and Installation
-* python=3.6.10
-* scikit-learn=1.0.1
-* scipy=1.4.0
+* python=3.8.18
+* scikit-learn=1.2.2
+* scipy=1.4.1
 * numpy=1.18.5
-* matplotlib=3.3.4
-* pillow=8.3.1
-* pandas=1.3.4
+* matplotlib=3.5.3
+* pillow=6.2.1
+* pandas=1.3.5
 
 ### Preparation
 Because of the hospital data privacy, the project doesn't involve the dataset.
@@ -75,3 +75,10 @@ Because of the hospital data privacy, the project doesn't involve the dataset.
 <p align='center'>
 <img src="github_fig/Optimal_tree_reg_test_5_result.png" height="350px" width='600px'> 
 
+#### joblib存取訓練好的模型，執行預測 :
+<p align='center'>
+<img src="github_fig/joblib_load_model.png" height="170px" width='900px'> 
+    
+#### 預測結果 :
+<p align='center'>
+<img src="github_fig/Predicted_result_v2.png" height="150px" width='900px'> 
