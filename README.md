@@ -40,11 +40,11 @@ Because of the hospital data privacy, the project doesn't involve the dataset.
 ### Issues
 目前評估方法(BIS)與三位醫生評估的差異仍然很大。
 <p align='center'>
-<img src="github_fig/BIS.png/" height="270px" width='580px'> 
+<img src="github_fig/BIS.png" height="330px" width='650px'> 
 
 ### Metrics result
-|Methods|lin_reg|Poly degree lin reg|SVR|Optimal_forest_reg|forest_reg|Optimal_tree_reg|tree_reg|
-|-|-|-|-|-|-|-|
+|Methods|lin_reg|Poly_degree_lin_reg|SVR|Optimal_forest_reg|forest_reg|Optimal_tree_reg|tree_reg|
+|-|-|-|-|-|-|-|-|
 |Train score(accuracy)|0.562023|0.710967|0.500143|0.925121|0.987059|0.613913|0.990100|
 |Test score(accuracy)|0.528438|0.607673|0.470762|0.645742|0.657726|0.433699|0.258408|
 |Train RMSE|6.648971|0.562023|7.103162|2.749218|1.142909|6.242688|0.999632|
@@ -54,7 +54,7 @@ Because of the hospital data privacy, the project doesn't involve the dataset.
 
 ### Plot metrics chart
 <p align='center'>
-<img src="github_fig/Performance_plot.png" height="300px" width='600px'> 
+<img src="github_fig/Performance_plot.png" height="350px" width='650px'> 
 
 
 ### Predicted results on test set
