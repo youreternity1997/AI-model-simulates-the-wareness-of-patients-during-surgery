@@ -88,4 +88,4 @@ Because of the hospital data privacy, the project doesn't involve the dataset.
     
 #### 預測結果 :
 <p align='center'>
-<img src="github_fig/Predicted_result_v2.png" height="150px" width='900px'> 
+<img src="github_fig/Predicted_result_v3.png" height="150px" width='900px'> 
